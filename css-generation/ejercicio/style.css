@@ -1,0 +1,42 @@
+html {
+  background-color: lightblue;
+}
+
+h1 {
+  color: limegreen;
+  text-align: center;
+}
+
+#title {
+  color: blue;
+  text-align: center;
+}
+
+.p-large {
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+}
+.p-sizetabla {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p-color1 {
+  color: blue;
+  background-color: lightskyblue;
+}
+
+.p-tabla1 {
+  color: blue;
+  background-color: lightgrey;
+}
+
+.p-tabla2 {
+  color: blue;
+  background-color: lightgrey;
+}
+
+.p-tabla3 {
+  color: blue;
+  background-color: lightgrey;
+}

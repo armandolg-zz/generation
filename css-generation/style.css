@@ -1,0 +1,33 @@
+/* body {
+  background-color: lightseagreen;
+}
+ */
+
+h1 {
+  color: limegreen;
+  text-align: center;
+}
+
+/* p {
+  color: mediumaquamarine;
+}
+ */
+
+#title {
+  color: green;
+  text-align: center;
+}
+
+.p-large {
+  font-size: 32px;
+}
+
+.p-green {
+  color: green;
+  background-color: hotpink;
+}
+
+.p-red {
+  color: red;
+  background-color: black;
+}
