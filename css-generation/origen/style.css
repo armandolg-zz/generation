@@ -1,0 +1,36 @@
+html {
+  background-color: lightsteelblue;
+}
+
+h1 {
+  color: black;
+  text-align: right;
+  font-family: "Gill Sans";
+}
+
+span {
+  color: red;
+}
+
+h2 {
+  font-family: "serif";
+}
+
+.primertxt {
+  color: orangered;
+}
+
+.seguntxt {
+  background-color: white;
+  color: green;
+}
+
+.abajo {
+  text-align: center;
+  font-family: cursive;
+  font-size: 10px;
+}
+
+.sangria {
+  text-indent: 40px;
+}

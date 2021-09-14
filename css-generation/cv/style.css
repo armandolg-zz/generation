@@ -1,0 +1,27 @@
+h3 {
+  color: red;
+  background-color: gray;
+}
+
+h4 {
+  color: purple;
+  background-color: lightgrey;
+}
+
+p {
+  background-color: lightgray;
+}
+
+.titulo {
+  text-align: center;
+}
+
+span {
+  color: black;
+  text-decoration: none;
+}
+
+.txt {
+  color: blue;
+  text-decoration: underline;
+}

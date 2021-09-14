@@ -1,0 +1,25 @@
+body {
+  background-image: url("https://i.ytimg.com/vi/zyS0SJA4n8c/maxresdefault.jpg");
+}
+
+.title {
+  text-align: center;
+  color: royalblue;
+  background-color: black;
+  border: 5px solid red;
+}
+
+.subtitle {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+#caja {
+  background-color: black;
+}
+
+#caja p {
+  color: white;
+}
