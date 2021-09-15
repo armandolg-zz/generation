@@ -1,0 +1,65 @@
+body {
+  background-color: lightsteelblue;
+}
+
+h1 {
+  color: limegreen;
+  text-align: center;
+}
+h3 {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+#title {
+  color: white;
+  text-align: center;
+  animation-duration: 3s;
+  animation-name: slidein;
+  background-color: black;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.p-large {
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.p-color1 {
+  color: blue;
+  background-color: lightskyblue;
+}
+
+.lista {
+  background-color: turquoise;
+  text-align: center;
+}
+
+.link {
+  background-color: blueviolet;
+  color: white;
+  font-size: 20px;
+}
+
+.link1 {
+  background-color: green;
+  color: white;
+  font-size: 20px;
+}
+
+.h31 {
+  background-color: black;
+  color: white;
+}

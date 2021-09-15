@@ -1,0 +1,39 @@
+.f1 {
+  font-family: "Black Ops One", cursive;
+  color: green;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+.f2 {
+  font-family: "Dosis", sans-serif;
+  color: aqua;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+.f3 {
+  font-family: "Fira Sans", sans-serif;
+  color: orangered;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+.f4 {
+  font-family: "Montserrat", sans-serif;
+  color: yellowgreen;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+.f5 {
+  font-family: "Source Code Pro", monospace;
+  color: pink;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}

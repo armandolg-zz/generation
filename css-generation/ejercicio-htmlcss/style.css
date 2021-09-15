@@ -1,0 +1,33 @@
+html {
+  font-family: "Fira Mono", monospace;
+  background-color: lightgray;
+}
+
+.titulo1 {
+  text-align: center;
+}
+
+.titulo2 {
+  color: white;
+  background-color: gray;
+}
+
+.projo {
+  color: red;
+}
+
+.pblanco {
+  background-color: white;
+  font-weight: bold;
+}
+
+.float {
+  float: left;
+  margin-left: 20px;
+}
+
+.parrafo {
+  text-indent: 50px;
+  width: 80%;
+  margin: auto;
+}
