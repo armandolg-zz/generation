@@ -1,0 +1,43 @@
+.header {
+  background-color: lightgray;
+  text-align: center;
+  padding: 30px;
+}
+
+.nav {
+  background-color: lightgray;
+  text-align: center;
+  padding: 1px;
+}
+
+.container {
+  gap: 10px;
+  display: flex;
+}
+
+.item1 {
+  background-color: lightgray;
+  width: 1px;
+  padding: 150px;
+  text-align: center;
+}
+
+.item2 {
+  background-color: lightgray;
+  width: 75%;
+  text-align: center;
+  padding: 150px;
+}
+
+.item3 {
+  background-color: lightgray;
+  width: 1px;
+  padding: 150px;
+  text-align: center;
+}
+
+.foot {
+  background-color: lightgray;
+  text-align: center;
+  padding: 20px;
+}
