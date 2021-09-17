@@ -1,5 +1,366 @@
-.header {
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  position: absolute;
+  z-index: 4;
+  display: flex;
+  background: black;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+}
+nav ul li {
+  display: inline;
   color: white;
-  background-color: black;
-  text-align: right;
+  margin-right: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav img {
+  height: 50px;
+  margin-right: auto;
+}
+
+footer {
+  background: black;
+  width: 100%;
+}
+
+.primera {
+  background-image: url("https://i.kym-cdn.com/entries/icons/original/000/029/959/Screen_Shot_2019-06-05_at_1.26.32_PM.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 700px;
+  position: relative;
+  color: white;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-end;
+}
+.titulo {
+  width: 80%;
+  margin: auto;
+}
+
+.titulo h1 {
+  font-size: 60px;
+  margin: 60px;
+}
+
+.titulo p {
+  width: 60%;
+  margin: 60px;
+}
+
+.titulo .boton {
+  padding: 64px;
+  background: none;
+  border: none;
+  color: white;
+  margin-right: 4rem;
+  font-weight: bold;
+}
+
+.titulo .boton1 {
+  background: blue;
+  color: white;
+  border: none;
+  padding: 15px;
+  margin-right: 25px;
+}
+
+.titulo .boton2 {
+  border: white;
+  color: black;
+  padding: 15px;
+}
+
+.cajitas {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.caja1 {
+  width: 20rem;
+  height: 20rem;
+  background: blue;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.caja1 img {
+  width: 10rem;
+  height: 10rem;
+  margin-bottom: 2rem;
+}
+
+.texto1 {
+  display: flex;
+  width: 80%;
+  flex-flow: row wrap;
+  margin: 4rem auto;
+}
+
+.primertexto {
+  flex: 1 1 50%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.primertexto h2 {
+  font-size: 40px;
+}
+
+.primertexto p {
+  margin-top: 48px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.imgtexto1 {
+  display: flex;
+  flex: 1 1 50%;
+}
+
+.imgtexto1 img {
+  flex: 1 1;
+  width: 16px;
+  object-fit: cover;
+}
+
+.abajofoto {
+  flex: 0 1 80%;
+  border: 16px solid blue;
+  margin: 64px auto;
+  font-weight: bold;
+  padding: 28px;
+  font-size: 20px;
+}
+
+.galeria {
+  display: flex;
+  flex-flow: column wrap;
+  height: 80rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.foto {
+  object-fit: cover;
+  width: 10rem;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.gal1 {
+  display: flex;
+  border: 1px solid black;
+  flex: 20%;
+  margin-right: 20px;
+}
+.gal2 {
+  display: flex;
+  border: 1px solid BLACK;
+  flex: 60%;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.gal3 {
+  display: flex;
+  border: 1px solid BLACK;
+  flex: 100%;
+  margin-right: 20px;
+}
+.gal4 {
+  display: flex;
+  border: 1px solid BLACK;
+  flex: 30%;
+  margin-bottom: 20px;
+}
+.gal5 {
+  display: flex;
+  border: 1px solid BLACK;
+  flex: 30%;
+}
+.gal6 {
+  display: flex;
+  border: 1px solid BLACK;
+  flex: 30%;
+  margin-top: 20px;
+}
+
+/* estrellas */
+
+.calificacion {
+  width: 80%;
+  margin: 5rem auto;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.fotoestrellas {
+  flex: 1 1 50%;
+  display: flex;
+}
+
+.fotoestrellas img {
+  flex: 1 1;
+  width: 1rem;
+  height: 100%;
+  padding: 4rem;
+  object-fit: cover;
+}
+
+.textoestrellas {
+  flex: 1 1 50%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
+
+.textoestrellas h2 {
+  font-size: 100px;
+}
+.textoestrellas p {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.calificacion {
+  flex: 1 1 100%;
+  text-align: center;
+}
+
+.full {
+  width: 4rem;
+  margin: 0 1rem;
+}
+
+.abajo {
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textofooter {
+  max-width: 40%;
+}
+
+.textofooter h2 {
+  font-size: 50px;
+}
+
+.imagenabajo {
+  max-width: 30%;
+}
+
+.imagenabajo img {
+  width: 100px;
+}
+
+/* formulario */
+
+.formulario {
+  width: 80%;
+  margin: 0 auto;
+  height: 82rem;
+  background: blue;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.formulario--info {
+  flex: 1 1 50%;
+  max-width: 50%;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.formulario--info h2 {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 50px;
+}
+
+.formulario--form {
+  flex: 1 1 50%;
+  display: flex;
+  align-items: center;
+}
+
+.form-container {
+  width: 90%;
+  height: 80%;
+  background: gray;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  box-shadow: 0px 4px 4px black;
+  border-radius: 20px;
+}
+
+.form-container form {
+  height: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-end;
+}
+
+.formulario--form form label {
+  flex: 1 1 100%;
+  text-align: center;
+  padding: 12px;
+}
+
+.formulario--form form label input {
+  padding: 1rem;
+  height: 6rem;
+  border-radius: 24px;
+  width: 80%;
+  border: none;
+}
+
+.formulario--form {
+  background: blue;
+}
+
+.formulario--form p {
+  flex: 1 1 100%;
+  text-align: center;
+  align-self: center;
+  color: gray;
+}
+
+.formulario--form .botones {
+  align-self: start;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.formulario--form .botones button {
+  padding: 1rem 7rem;
+  border-radius: 1.5rem;
+  background-color: blue;
+  border: none;
 }
